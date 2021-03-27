@@ -8,16 +8,16 @@
 <body>
     <div class="container">
         <h1>Actual Time: <span id="actual-time"></span> </h1>
-        <h1>Reverse Time:  <span id="clock"></span> </h1>
+        <h1>Time Travel: <span id="clock"></span> (<span id="direction"></span>)</h1>
        
     
         <form class="form-group" id="form">
-            <label for="rollback">Rollback</label><br>
+            <label for="rollback">Decrement by seconds:</label><br>
             <input class="form-control" type="number" id="rollback" name="rollback"><br>
             <button class="btn btn-primary" type="submit">Submit</button>
-        </form> 
+        </form>
     </div>
    
 </body>
-<script src="script.js"></script>
+<script type="module" src="script.js"></script>
 </html>
