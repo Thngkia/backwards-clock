@@ -25,13 +25,13 @@ $ docker run -d -p 80:80 thngkia/backwards-clock
 
 To run the unit test,
 
-1. clone the git repo
+1. clone the git repo into a new directory
 
 ```
 $ git clone git@github.com:Thngkia/backwards-clock.git
 ```
 
-2. install node modules
+2. cd into backwards-clock and then install node modules
 
 ```
 $ npm install
